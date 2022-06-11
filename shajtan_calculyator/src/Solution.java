@@ -2,8 +2,8 @@ class Solution {
     int a;
     int b;
 
-    float solve(String oper) {
-        float answer = 0.0f;
+    int solve(String oper) {
+        int answer = 0;
         switch (oper) {
             case "+":
                 answer = a + b;
